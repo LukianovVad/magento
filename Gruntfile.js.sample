@@ -107,4 +107,7 @@ module.exports = function (grunt) {
     }, function (task, name) {
         grunt.registerTask(name, task);
     });
+
+    grunt.registerTask('compile', ['clean:theme', 'exec:theme', 'less:theme']);
+    grunt.registerTask('default', ['compile', 'watch']);
 };
