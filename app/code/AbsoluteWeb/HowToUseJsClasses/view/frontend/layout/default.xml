@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<!--
+ * Absolute Web Intellectual Property
+ *
+ * @category     {AbsoluteWeb/cookbook}
+ * @copyright    Copyright © 1999-2022 Absolute Web, Inc. (http://www.absoluteweb.com)
+ * @author       Absolute Web
+ * @license      http://www.absoluteweb.com/license-agreement/  Single domain license
+ * @terms of use http://www.absoluteweb.com/terms-of-use/
+-->
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <body>
+        <referenceContainer name="footer">
+            <block name="init.component" template="AbsoluteWeb_HowToUseJsClasses::initialization.phtml" after="-"/>
+        </referenceContainer>
+    </body>
+</page>

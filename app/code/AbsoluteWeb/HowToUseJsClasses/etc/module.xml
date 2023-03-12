@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Absolute Web Intellectual Property
+ *
+ * @copyright    Copyright (c) 1999-2022 Absolute Web, Inc. (http://www.absoluteweb.com)
+ * @author       Absolute Web
+ * @license      http://www.absoluteweb.com/license-agreement/  Single domain license
+ * @terms of use http://www.absoluteweb.com/terms-of-use/
+ */
+-->
+
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Module/etc/module.xsd">
+    <module name="AbsoluteWeb_HowToUseJsClasses" />
+</config>
